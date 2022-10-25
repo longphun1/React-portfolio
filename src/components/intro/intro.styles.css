@@ -1,0 +1,95 @@
+.intro {
+    align-items: center;
+    background: url('../../../public/images/intro-wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+}
+
+.headshot-about-container {
+    display: inline-block;
+    text-align: center;
+    max-width: 95vw;
+}
+
+.linsk-container {
+    display: inline-block;
+    margin-top: 9%;
+    width: 95vw;
+    text-align: center;
+}
+
+.info {
+    color: #ffff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.aboutMe {
+    min-width: 35vw;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon2 {
+    width: 40px;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resume-link {
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+@media only screen and (width: 768px){
+    .intro {
+        height: 1024px;
+    }
+    
+    .links-container {
+        margin-top: 12%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .intro {
+        background-attachment: fixed;
+    }
+    .links-container {
+        margin-top: 2.5%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .icon1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon2 {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (width:1024px) {    
+    .aboutMe {
+        margin-top: 3%;
+    }
+}
