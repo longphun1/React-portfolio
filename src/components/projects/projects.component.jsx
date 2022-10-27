@@ -36,8 +36,8 @@ const Projects = () => {
                 </div>
                 <div style={{ marginBottom: "1%" }} className="project">
                     <img className="image1" src="https://i.imgur.com/rPMrX5f.png" alt='project'></img>
-                    <h2 className="project-summary"></h2>
-                    <h2 className="tech-used">Python application fabricated with Django as the framework and SQLite as the database. Utilized openweathermap API to get locations weather so users can plan events accordingly.</h2>
+                    <h2 className="project-summary">Python application fabricated with Django as the framework and SQLite as the database. Utilized openweathermap API to get locations weather so users can plan events accordingly.</h2>
+                    <h2 className="tech-used">Tech Used</h2>
                     <h3 className="tech-used">Python | Django | SQLite | API</h3>
                     <a className="view-site" href="https://github.com/longphun1/python_hangout_app/tree/master" target="_blank" rel="noopener noreferrer">View <img className="github-icon" src="https://i.imgur.com/GdNRuHu.png" alt='1'></img></a>
                 </div>
