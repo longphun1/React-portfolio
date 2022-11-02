@@ -48,10 +48,10 @@ class Contact extends Component {
             formIsValid = false;
         }
 
-        // if (!this.state.message || this.state.message.length < 10) {
-        //     errors.message = "Minimum 10 symbols";
-        //     formIsValid = false;
-        // }
+        if (!this.state.message || this.state.message.length < 1) {
+            errors.message = "Enter a message";
+            formIsValid = false;
+        }
 
         if (!this.state.email || this.state.email.length < 1) {
             errors.email = "Please enter an email";
@@ -131,7 +131,7 @@ class Contact extends Component {
                         <TextArea
                             name='message'
                             id='message'
-                            // required='required'
+                            required='required'
                             className="form"
                             rows='8'
                             onChange={this.handleInputChange.bind(this)}
