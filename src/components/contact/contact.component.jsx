@@ -79,7 +79,7 @@ class Contact extends Component {
             message_html: this.state.message,
         }
 
-        emailjs.send('contact_service', 'template_CcYeWkv5', templateParams, 'user_J1BDkVHh8QTjNGT1n94LV')
+        emailjs.send('contact_service', 'template_CcYeWkv5', templateParams, `${process.env.REACT_APP_USER_ID}` )
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
