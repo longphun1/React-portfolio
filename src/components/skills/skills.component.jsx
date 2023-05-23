@@ -2,12 +2,11 @@ import './skills.styles.css';
 
 const Skills = () => {
     return (
-        <div className="background-image">
+        <div className='idk123'>
             <div id="skills"></div>
             <div className="skills-container">
                 <div className="skills-box">
                     <div className="skills-inner-box">
-                        <h1 className="skill-title">Skills</h1>
                         <div className="skills-sections">
                             <h2 className="skills-section-title">Languages</h2>
                             <img className="skills-icons-resize" src="/images/languages.png" alt='2'/>
@@ -29,7 +28,7 @@ const Skills = () => {
                         </div>
                         <div className="skills-sections">
                             <h2 className="skills-section-title">Databases</h2>
-                            <img className="skills-icons-resize2" src="/images/database.png" alt='2'/>
+                            <img className="skills-icons" src="/images/database.png" alt='2'/>
                             <h3 className="text">SQL</h3>
                             <h3 className="text">MySQL</h3>
                             <h3 className="text">MongoDB</h3>
@@ -44,7 +43,7 @@ const Skills = () => {
                             <h3 className="text">Heroku</h3>
                             <h3 className="text">Netlify</h3>
                             <h3 className="text">Restful API</h3>
-                            <h3 className="text">Webpack</h3>
+                            <h3 className="text">Pytest</h3>
                             <h3 className="text">Jest</h3>
                         </div>
                     </div>

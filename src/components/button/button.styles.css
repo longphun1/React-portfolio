@@ -1,6 +1,6 @@
 .submit {
     width: 100%;
-    background-color: rgb(16, 72, 145);
+    background-color: #232323;
     color: white;
     font-size: 15px;
     padding: 14px 20px;
@@ -12,5 +12,6 @@
 }
 
 .submit:hover{
-    background-color: #470343;
+    background-color: rgb(16, 72, 145);
+    
 }

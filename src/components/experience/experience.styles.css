@@ -1,0 +1,126 @@
+.experience-container {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+#experience {
+    padding-top: 15vh;
+}
+
+.experience-subContainer {
+    width: 100%;
+    min-height: 70vh;
+    background-color: rgba(35, 35, 35, .9);
+    padding-left: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.about-work-container {
+    display: inline-block;
+    width: 47%;
+    height: 100%;
+}
+
+.aboutMe-container {
+    height: 200px;
+    width: 600px;
+}
+
+.aboutMe-title {
+    color: #F5FFFA;
+    font-family: 'Lato';
+    margin-bottom: 10px;
+}
+
+.orange-text {
+    color: #FFA500;
+}
+
+.aboutMe-body {
+    color: #F5FFFA;
+    display: block;
+    font-size: 17px;
+}
+
+.work-title {
+    color: #F5FFFA;
+    margin-bottom: 15px;
+    font-family: 'Lato';
+}
+
+.work-timeline{
+    color: #F5FFFA;
+    vertical-align: top;
+    opacity: .7;
+}
+
+.work-body-container {
+    display: inline-block;
+    margin-left: 30px;
+    width: 300px;
+    height: 280px;
+}
+
+.work-job-title {
+    color: #F5FFFA;
+    display: block;
+    font-size: 22px;
+    font-family: 'Lato';
+    margin-bottom: 2px;
+}
+
+.position-title {
+    color: #F5FFFA;
+    display: block;
+    margin-bottom: 10px;
+    opacity: .7;
+}
+
+.work-text-body {
+    color: #F5FFFA;
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.work-tech-used {
+    background-color: #FFA500;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    font-family: 'Lato';
+    margin: 3px;
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width: 950px) {
+    .experience-subContainer {
+        display: block;
+        padding-left: 5%;
+        padding-top: 20px;
+    }
+
+    #experience {
+        padding-top: 5vh;
+    }
+
+    .aboutMe-container {
+        height: 250px;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+
+    .about-work-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 2200px) {
+    #experience {
+        padding-top: 7.5vh;
+    }
+}  
