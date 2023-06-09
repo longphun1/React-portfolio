@@ -5,7 +5,7 @@
 }
 
 #experience {
-    padding-top: 15vh;
+    padding-top: 14vh;
 }
 
 .experience-subContainer {
@@ -20,8 +20,8 @@
 
 .about-work-container {
     display: inline-block;
+    min-height: 100%;
     width: 47%;
-    height: 100%;
 }
 
 .aboutMe-container {
@@ -123,4 +123,15 @@
     #experience {
         padding-top: 7.5vh;
     }
-}  
+
+    .about-work-container {
+        margin-left: 4%;
+        margin-right: 3%;
+    }
+}
+
+@media only screen and (min-width: 2201px) {
+    .about-work-container {
+        margin-left: 11%;
+    }
+}

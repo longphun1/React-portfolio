@@ -13,7 +13,6 @@ const App = () => {
       <Intro />
       <div className='background-image'>
         <Experience />
-        
         <Projects />
       </div>
       <Contact />

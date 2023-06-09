@@ -2,7 +2,7 @@ import './skills.styles.css';
 
 const Skills = () => {
     return (
-        <div className='idk123'>
+        <div>
             <div id="skills"></div>
             <div className="skills-container">
                 <div className="skills-box">
