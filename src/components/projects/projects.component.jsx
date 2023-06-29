@@ -7,6 +7,22 @@ const Projects = () => {
             <div className="projects">
                 <div className="project">
                     <div className='image-container'>
+                        <img className="image1" src="/images/dailystory-ss.png" alt='project'></img>
+                    </div>
+                    <div className='project-body-container'>
+                        <a className="view-site" href="https://github.com/longphun1/react-maple-app" target="_blank" rel="noopener noreferrer"><h3 className='project-title'>DailyStory</h3></a>
+                        <span className="project-summary">React application base on a video game that allows users to create characters. Track their progress through daily and weekly tasks. Also have a shopping page where you can add items to cart and checkout using Stripe.</span>
+                        <span className='tech-used'>React</span>
+                        <span className='tech-used'>JavaScript</span>
+                        <span className='tech-used'>Redux</span>
+                        <span className='tech-used'>Stripe</span>
+                        <span className='tech-used'>Firebase</span>
+                        <span className='tech-used'>JSX</span>
+                        <span className='tech-used'>SCSS</span>
+                    </div>
+                </div>
+                <div className="project">
+                    <div className='image-container'>
                         <img className="image1" src="/images/python_bmi_ss.png" alt='project'></img>
                     </div>
                     <div className='project-body-container'>
