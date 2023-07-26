@@ -13,7 +13,7 @@ const Projects = () => {
                         <a className="view-site" href="https://github.com/longphun1/react-maple-app" target="_blank" rel="noopener noreferrer"><h3 className='project-title'>DailyStory</h3></a>
                         <span className="project-summary">React application base on a video game that allows users to create characters. Track their progress through daily and weekly tasks. Also have a shopping page where you can add items to cart and checkout using Stripe.</span>
                         <span className='tech-used'>React</span>
-                        <span className='tech-used'>JavaScript</span>
+                        <span className='tech-used'>TypeScript</span>
                         <span className='tech-used'>Redux</span>
                         <span className='tech-used'>Stripe</span>
                         <span className='tech-used'>Firebase</span>

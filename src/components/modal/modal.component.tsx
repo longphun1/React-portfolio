@@ -1,8 +1,12 @@
-import React from 'react';
 import Modal from 'react-modal';
-import './modal.styles.css'
+import './modal.styles.css';
 
-const MessageModal = (props) => (
+type ModalProps = {
+    messager?: string;
+    removeModal: (event: React.MouseEvent<Element, MouseEvent> | React.KeyboardEvent<Element>) => void
+}
+
+const MessageModal = (props: ModalProps) => (
     <Modal className="modal" isOpen={!!props.messager} contentLabel="Messager name" onRequestClose={props.removeModal} closeTimeoutMS={200}>
         <div className="modal-box">
             <h3>Your message have been sent, </h3>
